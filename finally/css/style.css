@@ -1,0 +1,216 @@
+
+
+/* Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*main Styling*/
+html,body{
+  
+    line-height: 1.7em;
+    background-color: rgba(236, 213, 213, 0.63);
+   font-style: italic;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-display: none;
+   
+     }  
+     table,th,td{
+        border:5px solid white;
+        border-collapse:collapse ;
+        border-radius: 10px;
+        font-size:16px;
+        
+        
+    }
+th{
+    color: rgba(255, 1, 1, 0.664);
+}
+    
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ th,td{
+    background-color: rgb(188, 235, 235);
+    border:5px solid;
+    padding: 5px;
+    border-color: #ffffffd2;
+  
+}
+#btable{
+    background-color: rgb(221, 240, 240);
+    width: fit-content;
+   border: #fff;
+    align-content: center;
+    margin-left: 50px;
+    float: left;
+    margin-top: 20px;
+    
+}
+#pannel{
+    background-color: rgba(56, 86, 221, 0.76);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    margin-left: 80px;
+}
+#monthly{
+    background-color: rgba(56, 86, 221, 0.76);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    padding-right: 50px;
+}
+a{
+    color: #333;
+    text-decoration: none;
+
+}
+h1,h2,h3{
+
+    padding: 10px;
+    color: #fff;
+
+}
+p{
+    margin: 10px;
+
+}
+table{
+    box-sizing: border-box;
+    padding: 50px;
+    margin: auto;
+}
+/* utility classes*/
+.text-primary{
+    color: rgb(76, 197, 20); ;
+}
+.text-tertiary{
+    color: rgba(21, 8, 212, 0.76); ;
+}
+.text-secondary{
+    color: #ff0000;
+    font-style: bold;
+}
+
+.btn{
+    display: inline-table;
+    font-size: 18px;
+    text-align: right;
+    border: 5px solid rgba(0, 0, 0, 0.616);
+    background: rgba(165, 233, 238, 0.801);
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px;
+    align-self: auto;
+    
+}
+.btn:hover{
+padding: 20px;
+}
+.controller{
+    font-size: 24px;
+    float: left;
+    max-width: auto;
+    font-weight: bold;
+    text-decoration: solid;
+    color: rgb(0, 194, 65);
+    border: 5px solid rgba(23, 199, 243, 0.726);
+    max-width: 150px; ;
+    padding-left: 90px;
+    height: auto;
+    width: auto;
+    margin:15px;
+    padding-left: 0%;
+    border-radius: 15px;
+    
+    } 
+    
+#info{
+    float: right;
+    margin-right: 80px;
+    font-size:24px;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: #27e237f3;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+}
+
+.controller h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+}
+
+}
+
+
+/* showcase*/
+#showcase{
+    
+    align-content: center;
+    text-align: center;
+    max-height: fit-content;
+    align-self: auto;
+}
+#showcase .showcase-content{
+    position: relative ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#showcase .showcase-content h1{
+    font-size: 56px;
+    line-height: 1.2em;
+    
+}
+#showcase .showcase-content p{
+    padding-bottom: 200px;
+    float: right;
+    padding-right: 200px;
+}
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+    .card{
+        width:100%;
+        height: 100%x;
+        box-shadow: 0 0 40px 20px rgba(72, 255, 0, 0.342);
+        perspective: 1000px;
+    }
+   .card-front{
+        position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        text-align: left ;
+        font-style: bold;
+        padding: 50px;
+        box-sizing: border-box;
+        color: rgb(2, 7, 0);
+        background-image: url("../image/images.jpg");
+        font-size: larger ;
+    }
+    
+  
+   
+  
+
